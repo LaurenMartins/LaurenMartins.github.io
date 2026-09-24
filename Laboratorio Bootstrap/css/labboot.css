@@ -1,0 +1,27 @@
+.jumbotron{
+    background-image: url("../img/vitrine.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 40vh;
+}
+
+#button-addon2{
+    background-color: #5a5959;
+}
+
+.conteiner{
+    margin-top: 20rem;
+}
+
+.perfil{
+    width: 60px; 
+    height: 60px; 
+    object-fit: cover;
+}
+
+.icone{
+    width: 40px; 
+    height: 40px; 
+}
