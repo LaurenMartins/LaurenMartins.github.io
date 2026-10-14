@@ -152,11 +152,4 @@ let btn9 = document.getElementById("btn9");
 
 btn9.onclick = verificaSenha;
 
-//questao 10
-
-function formatarNome(){
-    let input10 = document.getElementById("input10");
-    let texto10 = input10.value;
-
-    let resultado10 = texto10.trim()
-}
+//questao 1
