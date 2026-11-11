@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&family=Oswald:wght@500;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+#catalogo{
+  display: flex;
+  flex-wrap: wrap;       
+  gap: 20px;             
+  justify-content: center; 
+  padding: 20px;
+}
+
+body{
+  background-color: rgb(243, 239, 230);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 300;
+}
+
+h1{
+  font-family: 'Oswald', sans-serif;
+  padding: 10px;
+  
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card{
+  background-color: rgb(215, 212, 204);
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+}
+
+.card-capa{
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2px;
+}
+
+.card-classificacao {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: white;
+  background-color: #307939;
+
+}
+
+.card-titulo{
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0px;
+}
+
+.card-tabela{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.card-tabela th{
+  text-align: left;
+  vertical-align: top;
+  text-transform: lowercase;
+  font-weight: 300;
+  color: #666666;
+}
+
+.card-tabela td {
+  vertical-align: top;
+  padding-left: 10px;
+  padding-bottom: 8px;
+  color: #1a1a1a;
+}
+
+.card-opinioes {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.estrelas {
+  color: #000000; 
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.comentario {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: #666;
+  font-size: 1rem;
+  margin-top: 5px;
+  line-height: 1.3;
+}
+
+.card-semelhantes {
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+.card-semelhantes h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.lista-thumbnails {
+  display: flex;
+  gap: 10px; 
+}
+
+.img-thumbnail {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 3px;
+}
